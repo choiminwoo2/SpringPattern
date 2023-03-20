@@ -1,11 +1,14 @@
-package com.exam.pattern.api.v1;
+package com.exam.pattern.api.v2;
 
 import com.exam.pattern.api.v1.abs.UserRepositoryV1;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.stereotype.Repository;
 
 @Slf4j
-public class UserRepositoryImplV1 implements UserRepositoryV1 {
-    @Override
+@Repository
+public class UserRepositoryV2 {
+
+
     public void insertUser(String userId) {
 
         if("ex".equals(userId)){
