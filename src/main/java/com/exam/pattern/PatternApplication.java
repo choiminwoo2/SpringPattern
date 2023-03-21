@@ -7,7 +7,7 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Import;
 
 @Import(LogConfig.class)
-@SpringBootApplication(scanBasePackages = "com.exam.pattern.api")
+@SpringBootApplication(scanBasePackages = "com.exam.pattern.api.v1")
 public class PatternApplication {
 
     public static void main(String[] args) {
